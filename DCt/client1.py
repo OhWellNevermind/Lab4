@@ -24,9 +24,6 @@ PLAYER_2_SCORE = 0
 
 BALL = lib.create_ball(c)
 lib.create_line_center(c)
-lib.update_score(c)
-lib.player_1(c)
-lib.player_2(c)
 
 playerName = 'Player2' #input('Enter you name:')
 
