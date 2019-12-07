@@ -125,20 +125,6 @@ def bounce(action):
         BALL_Y_SPEED = -BALL_Y_SPEED
 
 
-def player_1(c):
-    return c.create_text(WIDTH - WIDTH / 6, PAD_H / 4,
-                         text=PLAYER_1_SCORE,
-                         font="Arial 20",
-                         fill="white")
-
-
-def player_2(c):
-    return c.create_text(WIDTH / 6, PAD_H / 4,
-                         text=PLAYER_2_SCORE,
-                         font="Arial 20",
-                         fill="white")
-
-
 def spawn_ball(c):
     global BALL_X_SPEED
     c.coords(create_ball(c), WIDTH / 2 - BALL_RADIUS / 2,
